@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Register meta fields.
  * 
@@ -13,6 +14,7 @@ register_meta(
 		'type'          => 'boolean',
 		'single'        => true,
 		'auth_callback' => '__return_true',
+		'default'       => true,
 	]
 );
 
